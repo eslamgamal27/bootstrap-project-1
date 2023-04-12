@@ -1,0 +1,457 @@
+ body{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Source Sans Pro', sans-serif;
+    /* height: 7000px; */
+    
+}
+/* NAV BAR */
+#home{
+    background-image: url(../imges/intro-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+   background-attachment: fixed;
+}
+
+
+
+.home-lyer{
+    background-color: rgba(0, 0, 0, 0.548);
+   
+}
+.home-lyer-item h1{
+font-size: 80px;
+font-weight: 800;
+color: white;
+}
+.home-lyer-item p{
+    font-size: 40px;
+    color: white;
+    padding-top: 10px;
+}
+.home-lyer-item p::after{
+    content: "|";
+    animation-name: typing;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes typing{
+   
+    0%{
+        content: " D|";
+    }
+    5%{
+        content: "DE|";
+    }
+    10%{
+        content: "DES|";
+    }
+    15%{
+        content: "DESI|";
+    }
+    20%{
+        content: "DESIN|";
+    }
+    25%{
+        content: "DESINER|";
+    }
+    30%{
+        content: "DESIN|";
+    }
+    35%{
+        content: "DESI|";
+    }
+    40%{
+        content: "DES|";
+    }
+    45%{
+        content: "DE|";
+    }
+    50%{
+        content: "D|";
+    }
+    55%{
+        content: "|";
+    }
+}
+
+
+/* FINSH NAV BAR */
+
+/* ABOUT */
+.about-home{
+    background-color: #f1f1f1;
+}
+.about-skills{
+    margin-bottom: 70px;
+}
+.about-img img{
+    vertical-align: baseline;
+}
+.about-ul ul{
+list-style: none;
+
+}
+.about-ul ul li{
+    font-size: 17px;
+    color: gray;
+    line-height: 42px;
+}
+.about-ul ul li span{
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+}
+.progress{
+    --bs-progress-height: .770rem;
+    --bs-progress-border-radius: 0rem;
+}
+.about-items h2{
+position: relative;
+}
+.about-items h2::after{
+   content:"";
+   position: absolute;
+   width: 110px;
+   height: 3px;
+   background-color: blue;
+   left: 0%;
+   top: 100%;
+
+}
+/* ----------------ABOUT FINISH------------------- */
+/* ----------------------service--------------------------------- */
+.card{
+    box-sizing: border-box;
+    padding: 17px;
+}
+/* .card-back i{
+    box-sizing: border-box;
+    padding: 17px;
+    padding-top: 25px;
+    font-size: 60px;
+    border-radius: 48%;
+    border: blue solid 10px;
+    background-color: white;
+    width: 140px;
+    height: 150px;
+    transition: color 1s , backgrond-color 1s , border 1s;
+    position: relative;
+    right: 14px;
+    bottom: 24px;
+    transition: color 1s , background-color 1s;
+}
+.circle-card{
+   left: 28%;
+    position: relative;
+    background-color: blue;
+width: 130px;
+height: 130px;
+border-radius: 50%;
+border: solid blue 10px;
+overflow: hidden;
+transition: border 1s;
+}
+
+.card:hover .circle-card{
+border: solid 10px rgb(150, 150, 235);
+}
+.card:hover .card-back i{
+    color: white;
+    background-color: blue;
+} */
+.icon-width i{
+    font-size: 50px;
+    transition: all 1s;
+}
+.icon-width{
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    padding: 20px;
+    margin: auto;
+    border: solid rgb(35, 35, 218) 7px;
+    border-radius: 50%;
+    transition: all 1s;
+}
+.card-item1:hover .icon-width{
+    background-color: blue;
+    border: solid rgb(165, 165, 228) 7px;
+}
+.card-item1:hover i{
+    color: white;
+}
+.icon-center{
+
+}
+
+
+.serv-text p{
+    position: relative;
+}
+.serv-text p::after{
+content:"";
+position: absolute;
+width: 60px;
+height: 3px;
+background-color: blue;
+left: 50%;
+top: 100%;
+margin-top: 10px;
+transform: translate(-50%);
+}
+.serv-end{
+   background-image: url(../imges/counters-bg.jpg);
+   /* height: 55vh; */
+   background-position: center center;
+   background-size: cover;
+   background-attachment: fixed;
+}
+.end-color{
+    background-color: rgba(16, 108, 214, 0.644);
+    width: 100%;
+    height: 100%;
+}
+.serv-home{
+ background-color: #f1f1f1;
+}
+
+/* .card-back2 i{
+    box-sizing: border-box;
+    padding: 17px;
+    padding-top: 25px;
+    font-size: 30px;
+    color: white;
+    border-radius: 48%;
+    border: blue solid 10px;
+    background-color: transparent;
+    width: 120px;
+    height: 130px;
+    transition: color 1s , backgrond-color 1s , border 1s;
+    position: relative;
+    right: 29px;
+    bottom: 30px;
+    transition: color 1s , background-color 1s;
+}
+.circle-card2{
+   left: 32%;
+    position: relative;
+    background-color: transparent;
+width: 80px;
+height: 80px;
+border-radius: 50%;
+border: solid white 8px;
+overflow: hidden;
+transition: border 1s;
+} */
+.icon-end i{
+    color: white;
+    font-size: 28px;
+}
+.icon-end{
+    background-color:transparent;
+    width: 70px;
+    height: 70px;
+    border: solid white 7px;
+    border-radius: 50%;
+    margin: auto;
+    box-sizing: border-box;
+    padding: 13px;
+}
+/* --------------------service finish--------------- */
+.card-plus i{
+    color: rgb(47, 47, 236);
+    background-color: transparent;
+    position: relative;
+    right: 4px;
+    top: 3px;
+    font-size: 20px;
+    font-weight: 0;
+}
+.card-plus{
+    border: solid 2px rgb(47, 47, 236) ;
+    position: relative;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    left: 50px;
+    bottom: 20px;
+    background-color: transparent;
+}
+.img-tran{
+    overflow: hidden;
+}
+.card-transform img{
+    transition: transform 1s;
+}
+.card-transform:hover img{
+    transform: scale(1.3);
+    
+}
+
+.proto-back{
+    height: 100vh;
+    background-image: url(../imges/overlay-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.back-layer{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(16, 108, 214, 0.644) ;
+}
+.cover i{
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 44px;
+    background-color: white;
+    color: rgba(13, 86, 170, 0.925);
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+}
+.carousel-indicators [data-bs-target]{
+  height: 8px;
+  border-radius: 11px;
+  margin-top: 15px;
+}
+.last-footer{
+   box-sizing: border-box;
+   padding-top: 5px;
+   text-align: end;
+}
+
+/* --------------------------------------------- */
+.img-blog{
+    position: relative;
+}
+.img-blog::after{
+    content:"WEB DESIGNE";
+    position: absolute;
+    width: 40%;
+   color: white;
+    box-sizing: border-box;
+    background-color: blue;
+    padding: 7px;
+    border-radius: 4px;
+    text-align: center;
+top: 100%;
+left: 50%;
+transform: translate(-50%,-50%);
+}
+/* -------------------------------------------- */
+
+.contact-home{
+    /* height: 140vh; */
+    background-image: url(../imges/overlay-bg.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+.contact-layer{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(16, 108, 214, 0.555) ;
+    box-sizing: border-box;
+    padding: 10%;
+}
+
+.contact-one{
+    box-sizing: border-box;
+    padding: 30px;
+}
+.contact-tow{
+    box-sizing: border-box;
+    padding: 30px;
+}
+.contact-one h2{
+    position: relative;
+}
+.contact-one h2::after{
+    content:"";
+    position: absolute;
+    width: 110px;
+    height: 3px;
+    background-color: blue;
+    left: 0%;
+    top: 100%;
+}
+.contact-one button{
+    box-sizing: border-box;
+   width: 40%;
+  padding: 10px 0px;
+  transition: background-color 1s , border 1s;
+  border: solid 5px transparent;
+}
+.contact-one button:hover{
+    background-color: blue;
+    border: solid 5px rgb(117, 117, 224);
+}
+.contact-tow h2{
+    position: relative;
+}
+.contact-tow h2::after{
+    content:"";
+    position: absolute;
+    width: 110px;
+    height: 3px;
+    background-color: blue;
+    left: 0%;
+    top: 100%;
+}
+.contact-tow ul{
+    list-style: none;
+  
+
+
+    
+}
+.contact-tow ul i{
+    color: rgb(49, 49, 185);
+}
+
+.b-icon{
+    left: 0%;
+    position: relative;
+    background-color: red;
+width: 55px;
+height: 55px;
+border-radius: 50%;
+border: solid blue 6px;
+overflow: hidden;
+transition: border 1s;
+
+}
+
+
+.icon i{
+    box-sizing: border-box;
+
+    padding-top: 25px;
+    padding-left: 20px;
+    font-size: 30px;
+  
+    background-color: white;
+    width: 145px;
+    height: 145px;
+    transition: color 1s , backgrond-color 1s ;
+    position: relative;
+    right: 12.5px;
+    bottom: 18px;
+}
+.b-icon:hover{
+    border: solid 6px rgb(139, 139, 241);
+}
+.b-icon:hover i{
+    background-color: blue;
+    color: white;
+}
+.icon i .item{
+    padding-left: 20px;
+}
+
+
+
+
